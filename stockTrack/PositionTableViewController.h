@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  PositionTableViewController.h
 //  stockTrack
 //
 //  Created by Scott Sullivan on 2/7/16.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PositionModel.h"
 
-@interface SecondViewController : UIViewController
-
+@interface PositionTableViewController : UITableViewController <PositionUpdateDelegate>
 
 @end
-

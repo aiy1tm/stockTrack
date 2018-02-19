@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "PositionModel.h"
+#import "BudgetModel.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    [[PositionModel dataHandler] restoreState];
+
+    [[BudgetModel dataHandler] restoreState];
     return YES;
 }
 
@@ -28,6 +34,9 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    [[PositionModel dataHandler] saveState];
+
+    [[BudgetModel dataHandler] saveState];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
@@ -40,6 +49,8 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [[PositionModel dataHandler] saveState];
+    [[BudgetModel dataHandler] saveState];
 }
 
 @end

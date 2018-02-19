@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1CEE3C7080A4D86BF0359A /* libPods-stockTrack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BB99F1B9D1ABE6778471A7 /* libPods-stockTrack.a */; };
+		D213CD4B1CDD898E00BD1083 /* AllocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D213CD4A1CDD898E00BD1083 /* AllocationTableViewController.m */; };
+		D213CD4E1CE1928200BD1083 /* AllocSelectorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D213CD4D1CE1928200BD1083 /* AllocSelectorTableViewController.m */; };
+		D2376CA91C8392BB006D228B /* BudgetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2376CA81C8392BB006D228B /* BudgetModel.m */; };
+		D2376CAC1C854C00006D228B /* BudgetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2376CAB1C854C00006D228B /* BudgetTableViewController.m */; };
+		D27B91BA1CCB37FA0071B2B2 /* PlotItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B91B51CCB37FA0071B2B2 /* PlotItem.m */; };
+		D27B91BB1CCB37FA0071B2B2 /* PlotGallery.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B91B71CCB37FA0071B2B2 /* PlotGallery.m */; };
+		D27B91BC1CCB37FA0071B2B2 /* CurvedScatterPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B91B91CCB37FA0071B2B2 /* CurvedScatterPlot.m */; };
+		D27B91BF1CCC05350071B2B2 /* ProjectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B91BE1CCC05350071B2B2 /* ProjectionViewController.m */; };
+		D288688F2031247A0059F94C /* SULGDataGrabber.m in Sources */ = {isa = PBXBuildFile; fileRef = D288688E2031247A0059F94C /* SULGDataGrabber.m */; };
+		D2BF020C1C88A227006EF7B8 /* BudgetEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BF020B1C88A227006EF7B8 /* BudgetEntryViewController.m */; };
+		D2BF02A71C95F318006EF7B8 /* FIPieChartDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BF02A61C95F317006EF7B8 /* FIPieChartDataSource.m */; };
+		D2C7E5371CF1178400B0CBB2 /* AdvancedModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C7E5361CF1178400B0CBB2 /* AdvancedModeViewController.m */; };
 		D2D21BAA1C68185800EBE11F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D21BA91C68185800EBE11F /* main.m */; };
 		D2D21BAD1C68185800EBE11F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D21BAC1C68185800EBE11F /* AppDelegate.m */; };
 		D2D21BB01C68185800EBE11F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D21BAF1C68185800EBE11F /* FirstViewController.m */; };
-		D2D21BB31C68185800EBE11F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D21BB21C68185800EBE11F /* SecondViewController.m */; };
 		D2D21BB61C68185800EBE11F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D21BB41C68185800EBE11F /* Main.storyboard */; };
 		D2D21BB81C68185900EBE11F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D21BB71C68185900EBE11F /* Assets.xcassets */; };
 		D2D21BBB1C68185900EBE11F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D21BB91C68185900EBE11F /* LaunchScreen.storyboard */; };
 		D2D21BC61C68185900EBE11F /* stockTrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D21BC51C68185900EBE11F /* stockTrackTests.m */; };
 		D2D21BD11C68185900EBE11F /* stockTrackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D21BD01C68185900EBE11F /* stockTrackUITests.m */; };
+		D2D21BE01C6818F300EBE11F /* PositionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D21BDF1C6818F300EBE11F /* PositionTableViewController.m */; };
+		D2D21BE31C681CC600EBE11F /* PositionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D21BE21C681CC600EBE11F /* PositionModel.m */; };
+		D2D21BE91C6C3CF900EBE11F /* PositionEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D21BE81C6C3CF900EBE11F /* PositionEditorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +51,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14BB99F1B9D1ABE6778471A7 /* libPods-stockTrack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stockTrack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A6C5AFE079B7B7A69A05731 /* Pods-stockTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stockTrack.release.xcconfig"; path = "Pods/Target Support Files/Pods-stockTrack/Pods-stockTrack.release.xcconfig"; sourceTree = "<group>"; };
+		7F392AF129006C45C2B66B65 /* Pods-stockTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stockTrack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stockTrack/Pods-stockTrack.debug.xcconfig"; sourceTree = "<group>"; };
+		D213CD491CDD898E00BD1083 /* AllocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllocationTableViewController.h; sourceTree = "<group>"; };
+		D213CD4A1CDD898E00BD1083 /* AllocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllocationTableViewController.m; sourceTree = "<group>"; };
+		D213CD4C1CE1928200BD1083 /* AllocSelectorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllocSelectorTableViewController.h; sourceTree = "<group>"; };
+		D213CD4D1CE1928200BD1083 /* AllocSelectorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllocSelectorTableViewController.m; sourceTree = "<group>"; };
+		D2376CA71C8392BB006D228B /* BudgetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetModel.h; sourceTree = "<group>"; };
+		D2376CA81C8392BB006D228B /* BudgetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgetModel.m; sourceTree = "<group>"; };
+		D2376CAA1C854C00006D228B /* BudgetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetTableViewController.h; sourceTree = "<group>"; };
+		D2376CAB1C854C00006D228B /* BudgetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgetTableViewController.m; sourceTree = "<group>"; };
+		D27B91B41CCB37FA0071B2B2 /* PlotItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotItem.h; sourceTree = "<group>"; };
+		D27B91B51CCB37FA0071B2B2 /* PlotItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlotItem.m; sourceTree = "<group>"; };
+		D27B91B61CCB37FA0071B2B2 /* PlotGallery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotGallery.h; sourceTree = "<group>"; };
+		D27B91B71CCB37FA0071B2B2 /* PlotGallery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlotGallery.m; sourceTree = "<group>"; };
+		D27B91B81CCB37FA0071B2B2 /* CurvedScatterPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurvedScatterPlot.h; sourceTree = "<group>"; };
+		D27B91B91CCB37FA0071B2B2 /* CurvedScatterPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurvedScatterPlot.m; sourceTree = "<group>"; };
+		D27B91BD1CCC05350071B2B2 /* ProjectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectionViewController.h; sourceTree = "<group>"; };
+		D27B91BE1CCC05350071B2B2 /* ProjectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectionViewController.m; sourceTree = "<group>"; };
+		D288688D203124770059F94C /* SULGDataGrabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SULGDataGrabber.h; sourceTree = "<group>"; };
+		D288688E2031247A0059F94C /* SULGDataGrabber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SULGDataGrabber.m; sourceTree = "<group>"; };
+		D2BF020A1C88A227006EF7B8 /* BudgetEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetEntryViewController.h; sourceTree = "<group>"; };
+		D2BF020B1C88A227006EF7B8 /* BudgetEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgetEntryViewController.m; sourceTree = "<group>"; };
+		D2BF02A51C95F317006EF7B8 /* FIPieChartDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIPieChartDataSource.h; sourceTree = "<group>"; };
+		D2BF02A61C95F317006EF7B8 /* FIPieChartDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIPieChartDataSource.m; sourceTree = "<group>"; };
+		D2C7E5351CF1178400B0CBB2 /* AdvancedModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedModeViewController.h; sourceTree = "<group>"; };
+		D2C7E5361CF1178400B0CBB2 /* AdvancedModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedModeViewController.m; sourceTree = "<group>"; };
 		D2D21BA51C68185800EBE11F /* stockTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stockTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D21BA91C68185800EBE11F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2D21BAB1C68185800EBE11F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D2D21BAC1C68185800EBE11F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D2D21BAE1C68185800EBE11F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		D2D21BAF1C68185800EBE11F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		D2D21BB11C68185800EBE11F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		D2D21BB21C68185800EBE11F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		D2D21BB51C68185800EBE11F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2D21BB71C68185900EBE11F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2D21BBA1C68185900EBE11F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +94,12 @@
 		D2D21BCC1C68185900EBE11F /* stockTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stockTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D21BD01C68185900EBE11F /* stockTrackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stockTrackUITests.m; sourceTree = "<group>"; };
 		D2D21BD21C68185900EBE11F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D21BDE1C6818F300EBE11F /* PositionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionTableViewController.h; sourceTree = "<group>"; };
+		D2D21BDF1C6818F300EBE11F /* PositionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionTableViewController.m; sourceTree = "<group>"; };
+		D2D21BE11C681CC600EBE11F /* PositionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionModel.h; sourceTree = "<group>"; };
+		D2D21BE21C681CC600EBE11F /* PositionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionModel.m; sourceTree = "<group>"; };
+		D2D21BE71C6C3CF900EBE11F /* PositionEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionEditorViewController.h; sourceTree = "<group>"; };
+		D2D21BE81C6C3CF900EBE11F /* PositionEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionEditorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1CEE3C7080A4D86BF0359A /* libPods-stockTrack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +128,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		004D57E3A07C7DEF049A0076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14BB99F1B9D1ABE6778471A7 /* libPods-stockTrack.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B832B673E1E7AEFDCEB1063 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F392AF129006C45C2B66B65 /* Pods-stockTrack.debug.xcconfig */,
+				2A6C5AFE079B7B7A69A05731 /* Pods-stockTrack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D27B91B31CCB37C50071B2B2 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				D2BF02A51C95F317006EF7B8 /* FIPieChartDataSource.h */,
+				D2BF02A61C95F317006EF7B8 /* FIPieChartDataSource.m */,
+				D27B91B41CCB37FA0071B2B2 /* PlotItem.h */,
+				D27B91B51CCB37FA0071B2B2 /* PlotItem.m */,
+				D27B91B61CCB37FA0071B2B2 /* PlotGallery.h */,
+				D27B91B71CCB37FA0071B2B2 /* PlotGallery.m */,
+				D27B91B81CCB37FA0071B2B2 /* CurvedScatterPlot.h */,
+				D27B91B91CCB37FA0071B2B2 /* CurvedScatterPlot.m */,
+			);
+			name = Charts;
+			sourceTree = "<group>";
+		};
 		D2D21B9C1C68185800EBE11F = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +167,8 @@
 				D2D21BC41C68185900EBE11F /* stockTrackTests */,
 				D2D21BCF1C68185900EBE11F /* stockTrackUITests */,
 				D2D21BA61C68185800EBE11F /* Products */,
+				9B832B673E1E7AEFDCEB1063 /* Pods */,
+				004D57E3A07C7DEF049A0076 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +185,11 @@
 		D2D21BA71C68185800EBE11F /* stockTrack */ = {
 			isa = PBXGroup;
 			children = (
+				D2D21BEE1C7AAEE300EBE11F /* Viewcontrollers */,
+				D2D21BED1C7AAEC900EBE11F /* Models */,
 				D2D21BAB1C68185800EBE11F /* AppDelegate.h */,
+				D27B91B31CCB37C50071B2B2 /* Charts */,
 				D2D21BAC1C68185800EBE11F /* AppDelegate.m */,
-				D2D21BAE1C68185800EBE11F /* FirstViewController.h */,
-				D2D21BAF1C68185800EBE11F /* FirstViewController.m */,
-				D2D21BB11C68185800EBE11F /* SecondViewController.h */,
-				D2D21BB21C68185800EBE11F /* SecondViewController.m */,
 				D2D21BB41C68185800EBE11F /* Main.storyboard */,
 				D2D21BB71C68185900EBE11F /* Assets.xcassets */,
 				D2D21BB91C68185900EBE11F /* LaunchScreen.storyboard */,
@@ -145,6 +225,44 @@
 			path = stockTrackUITests;
 			sourceTree = "<group>";
 		};
+		D2D21BED1C7AAEC900EBE11F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D288688D203124770059F94C /* SULGDataGrabber.h */,
+				D288688E2031247A0059F94C /* SULGDataGrabber.m */,
+				D2D21BE11C681CC600EBE11F /* PositionModel.h */,
+				D2D21BE21C681CC600EBE11F /* PositionModel.m */,
+				D2376CA71C8392BB006D228B /* BudgetModel.h */,
+				D2376CA81C8392BB006D228B /* BudgetModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D2D21BEE1C7AAEE300EBE11F /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				D2C7E5351CF1178400B0CBB2 /* AdvancedModeViewController.h */,
+				D2C7E5361CF1178400B0CBB2 /* AdvancedModeViewController.m */,
+				D213CD491CDD898E00BD1083 /* AllocationTableViewController.h */,
+				D213CD4A1CDD898E00BD1083 /* AllocationTableViewController.m */,
+				D213CD4C1CE1928200BD1083 /* AllocSelectorTableViewController.h */,
+				D213CD4D1CE1928200BD1083 /* AllocSelectorTableViewController.m */,
+				D27B91BD1CCC05350071B2B2 /* ProjectionViewController.h */,
+				D27B91BE1CCC05350071B2B2 /* ProjectionViewController.m */,
+				D2D21BAE1C68185800EBE11F /* FirstViewController.h */,
+				D2D21BAF1C68185800EBE11F /* FirstViewController.m */,
+				D2D21BDE1C6818F300EBE11F /* PositionTableViewController.h */,
+				D2D21BDF1C6818F300EBE11F /* PositionTableViewController.m */,
+				D2376CAA1C854C00006D228B /* BudgetTableViewController.h */,
+				D2376CAB1C854C00006D228B /* BudgetTableViewController.m */,
+				D2D21BE71C6C3CF900EBE11F /* PositionEditorViewController.h */,
+				D2D21BE81C6C3CF900EBE11F /* PositionEditorViewController.m */,
+				D2BF020A1C88A227006EF7B8 /* BudgetEntryViewController.h */,
+				D2BF020B1C88A227006EF7B8 /* BudgetEntryViewController.m */,
+			);
+			name = Viewcontrollers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2D21BD51C68185900EBE11F /* Build configuration list for PBXNativeTarget "stockTrack" */;
 			buildPhases = (
+				83D554CC1E562FED0F31CE5C /* Check Pods Manifest.lock */,
 				D2D21BA11C68185800EBE11F /* Sources */,
 				D2D21BA21C68185800EBE11F /* Frameworks */,
 				D2D21BA31C68185800EBE11F /* Resources */,
+				2E69D83FE32D3F6D1DFEDDCF /* Embed Pods Frameworks */,
+				5B901E6DE6ED380D22A4DD6C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +333,7 @@
 				TargetAttributes = {
 					D2D21BA41C68185800EBE11F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VTK8C9RSM2;
 					};
 					D2D21BC01C68185900EBE11F = {
 						CreatedOnToolsVersion = 7.2;
@@ -270,15 +392,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E69D83FE32D3F6D1DFEDDCF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stockTrack/Pods-stockTrack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B901E6DE6ED380D22A4DD6C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stockTrack/Pods-stockTrack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D554CC1E562FED0F31CE5C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2D21BA11C68185800EBE11F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D21BB31C68185800EBE11F /* SecondViewController.m in Sources */,
+				D27B91BF1CCC05350071B2B2 /* ProjectionViewController.m in Sources */,
+				D288688F2031247A0059F94C /* SULGDataGrabber.m in Sources */,
+				D27B91BB1CCB37FA0071B2B2 /* PlotGallery.m in Sources */,
+				D2BF020C1C88A227006EF7B8 /* BudgetEntryViewController.m in Sources */,
+				D2D21BE31C681CC600EBE11F /* PositionModel.m in Sources */,
 				D2D21BAD1C68185800EBE11F /* AppDelegate.m in Sources */,
+				D2376CA91C8392BB006D228B /* BudgetModel.m in Sources */,
+				D213CD4E1CE1928200BD1083 /* AllocSelectorTableViewController.m in Sources */,
+				D2D21BE91C6C3CF900EBE11F /* PositionEditorViewController.m in Sources */,
+				D213CD4B1CDD898E00BD1083 /* AllocationTableViewController.m in Sources */,
+				D2BF02A71C95F318006EF7B8 /* FIPieChartDataSource.m in Sources */,
+				D2C7E5371CF1178400B0CBB2 /* AdvancedModeViewController.m in Sources */,
+				D2376CAC1C854C00006D228B /* BudgetTableViewController.m in Sources */,
 				D2D21BB01C68185800EBE11F /* FirstViewController.m in Sources */,
 				D2D21BAA1C68185800EBE11F /* main.m in Sources */,
+				D27B91BA1CCB37FA0071B2B2 /* PlotItem.m in Sources */,
+				D27B91BC1CCB37FA0071B2B2 /* CurvedScatterPlot.m in Sources */,
+				D2D21BE01C6818F300EBE11F /* PositionTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,23 +601,31 @@
 		};
 		D2D21BD61C68185900EBE11F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F392AF129006C45C2B66B65 /* Pods-stockTrack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = stockTrack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sullios.stockTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		D2D21BD71C68185900EBE11F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6C5AFE079B7B7A69A05731 /* Pods-stockTrack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = stockTrack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sullios.stockTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -504,6 +696,7 @@
 				D2D21BD71C68185900EBE11F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2D21BD81C68185900EBE11F /* Build configuration list for PBXNativeTarget "stockTrackTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +705,7 @@
 				D2D21BDA1C68185900EBE11F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2D21BDB1C68185900EBE11F /* Build configuration list for PBXNativeTarget "stockTrackUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +714,7 @@
 				D2D21BDD1C68185900EBE11F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
